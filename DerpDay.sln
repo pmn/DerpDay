@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerpDay", "DerpDay\DerpDay.csproj", "{7628563C-55EB-441F-9790-1F8231345AE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5B1E6B62-DA6A-446B-B673-7225741E0CC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{CA1A0E40-49E1-4357-98FF-BE915EF8B8FE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{146C4BA6-D9E9-4521-AB1F-DED5CDCBB5C0}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\DerpDay.json = PublishScripts\Templates\DerpDay.json
+		PublishScripts\Templates\DerpDay.param.dev.json = PublishScripts\Templates\DerpDay.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7628563C-55EB-441F-9790-1F8231345AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7628563C-55EB-441F-9790-1F8231345AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7628563C-55EB-441F-9790-1F8231345AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7628563C-55EB-441F-9790-1F8231345AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA1A0E40-49E1-4357-98FF-BE915EF8B8FE} = {5B1E6B62-DA6A-446B-B673-7225741E0CC5}
+		{146C4BA6-D9E9-4521-AB1F-DED5CDCBB5C0} = {5B1E6B62-DA6A-446B-B673-7225741E0CC5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "DerpDay"
+  },
+  "hostingPlanName": {
+    "value": "LabelBoard"
+  },
+  "siteLocation": {
+    "value": "West US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "derpday"
+  },
+  "serverLocation": {
+    "value": "West US"
+  },
+  "administratorLogin": {
+    "value": "derpday"
+  },
+  "administratorLoginPassword": {
+    "value": "D3rpD3rp"
+  },
+  "databaseName": {
+    "value": "DerpDay_db"
+  }
+}
